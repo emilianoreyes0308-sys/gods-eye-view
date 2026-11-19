@@ -1,3 +1,0 @@
-pleDouble sidecars from a macOS `tar` copy; `npm test` would otherwise
-# collect `._*.test.mjs` as test files.
-._*
