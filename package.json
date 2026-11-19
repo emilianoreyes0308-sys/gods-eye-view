@@ -1,58 +1,10 @@
-{
-  "name": "gods-eye-view",
-  "private": true,
-  "version": "0.3.0",
-  "description": "A real-time intelligence console for planet Earth — photorealistic 3D globe, live aircraft/ships/satellites/earthquakes/CCTV, and hands-free voice control. Runs in a browser.",
-  "type": "module",
-  "license": "MIT",
-  "author": "Bilawal Sidhu",
-  "homepage": "https://godseyeview.ai",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bilawalsidhu/gods-eye-view.git"
-  },
-  "bugs": {
-    "url": "https://github.com/bilawalsidhu/gods-eye-view/issues"
-  },
-  "engines": {
-    "node": ">=24.14.0 <25 || >=26 <27"
-  },
-  "keywords": [
-    "cesium",
-    "3d-globe",
-    "geospatial",
-    "osint",
-    "spatial-intelligence",
-    "photorealistic-3d-tiles",
-    "adsb",
-    "ais",
-    "satellites",
-    "voice-control",
-    "openai-realtime",
-    "visualization"
-  ],
-  "scripts": {
-    "doctor": "node scripts/setup-doctor.mjs",
-    "format": "node scripts/format.mjs --write",
-    "format:check": "node scripts/format.mjs --check",
-    "i18n": "node scripts/i18n.mjs",
-    "layer-token:next": "node scripts/next-layer-state-token.mjs",
-    "layer-token:check": "node scripts/check-layer-state-tokens.mjs",
-    "library:check": "node scripts/library.mjs check",
-    "library:next": "node scripts/library.mjs next",
-    "library:docs": "node scripts/library.mjs docs",
-    "library:probe": "node scripts/library.mjs probe",
-    "changelog": "node scripts/assemble-changelog.mjs --write",
-    "changelog:check": "node scripts/assemble-changelog.mjs --check",
-    "dev": "vite",
-    "dev:secure": "./scripts/dev-secure.sh",
+
     "opensky:import": "./scripts/opensky-import-client.sh",
     "build": "vite build",
     "build:panel": "node scripts/build-panel.mjs",
     "preview": "vite preview",
     "test": "node scripts/run-unit-tests.mjs",
-    "test:perf": "node scripts/run-perf-tests.mjs",
-    "test:track": "node scripts/track-regression.mjs",
+    cripts/track-regression.mjs",
     "qa:stub-boot": "node scripts/qa-stub-boot.mjs",
     "qa:conformance": "node scripts/qa-conformance.mjs",
     "qa:stories": "node scripts/qa-stories.mjs",
